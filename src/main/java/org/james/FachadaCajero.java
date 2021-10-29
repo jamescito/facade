@@ -6,8 +6,10 @@ package org.james;
 */
 public class FachadaCajero {
     private ValidacionUsuario val = new ValidacionUsuario();
-    ;
-    ;
+    private RecargaMovil rec = new RecargaMovil();
+    private RetirarDinero ret = new RetirarDinero(); 
+    
+    
 
     public String sacarDinero() 
     {
